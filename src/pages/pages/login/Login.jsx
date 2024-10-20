@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import { AuthContext } from "../../statestore/Authcontext";
+import { AuthContext } from "../../../../E-learning-project/src/statestore/Authcontext";
 
 export default function Login() {
   const [email, setEmail] = useState("");
