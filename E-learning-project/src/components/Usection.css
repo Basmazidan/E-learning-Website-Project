@@ -43,4 +43,13 @@
     color: rgb(189, 143, 233);
 
 }
+.results2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.results2 li{
+    padding: 5px 0;
+}
 
