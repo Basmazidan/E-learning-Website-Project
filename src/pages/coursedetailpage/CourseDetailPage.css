@@ -1,0 +1,43 @@
+/* Container styling */
+.course-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #faf7ff; /* Light pastel background color */
+  }
+  
+  /* Course title styling */
+  .course-title {
+    font-size: 2.5em;
+    color: #5b3db1; /* Deep purple for the main title */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Lessons heading styling */
+  .lessons-heading {
+    font-size: 1.8em;
+    color: #885bda; /* Softer purple for subtitles */
+    margin-bottom: 15px;
+  }
+  
+  /* Lessons list styling */
+  .lessons-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Individual lesson item styling */
+  .lesson-item {
+    background-color: #f5e1ff; /* Light pinkish purple background for lesson items */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: #3a3a3a;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+  }
+  
+  .lesson-item:hover {
+    background-color: #d1c4e9; /* Slightly darker purple for hover effect */
+  }

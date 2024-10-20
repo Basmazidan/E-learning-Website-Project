@@ -16,7 +16,7 @@ export const CourseCard = () => {
               <div className="d-flex justfy-content-between align-items-center">
                     {/* Replace <p> with <div> or <span> */}
                     <div className="lesson d-flex align-items-center gap-1">
-                        <i className="ri-book-open-fill"></i> 24 Lessons
+                        <i className="ri-book-open-fill"></i> 6 Lessons
                     </div>
                     <div className="students d-flex justfy-content-between align-items-center">
                         <i className="ri-graduation-cap-fill"></i>10.4k
@@ -42,7 +42,7 @@ export const CourseCard = () => {
               <Card.Text>
               <div className="d-flex justfy-content-between align-items-center">
                     <div className="lesson d-flex align-items-center gap-1">
-                        <i className="ri-book-open-fill"></i> 28 Lessons
+                        <i className="ri-book-open-fill"></i> 6 Lessons
                     </div>
                     <div className="students d-flex justfy-content-between align-items-center">
                         <i className="ri-graduation-cap-fill"></i>15.4k
@@ -68,7 +68,7 @@ export const CourseCard = () => {
               <Card.Text>
               <div className="d-flex justfy-content-between align-items-center">
                     <div className="lesson d-flex align-items-center gap-1">
-                        <i className="ri-book-open-fill"></i> 33 Lessons
+                        <i className="ri-book-open-fill"></i> 6 Lessons
                     </div>
                     <div className="students d-flex justfy-content-between align-items-center">
                         <i className="ri-graduation-cap-fill"></i>9.5k
