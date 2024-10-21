@@ -11,6 +11,10 @@ import Dashboard from "./pages/dashboard/Dashboard";
 import AuthProvider from "./statestore/Authcontext";
 import CoursesPage from "./pages/coursespage/CoursesPage";
 import CourseDetailPage from "./pages/coursedetailpage/CourseDetailPage";
+import Quizpage from "./pages/Quizpage/Quizpage.jsx";
+import Quiztype from "./pages/Quizetype/Quiztype.jsx";
+
+
 function App() {
   return (
     <div className="App">
@@ -25,6 +29,10 @@ function App() {
             <Route path="/signup" element={<SignUp />} />
             <Route path="/courses" element={<CoursesPage />} />
             <Route path="/courses/:id" element={<CourseDetailPage />} />
+            <Route path="/Quizs" element={<Quizpage />}/>
+            <Route path="/Quiztype/react" element={<Quiztype quizType="React"/>}/>
+            <Route path="/Quiztype/angular" element={<Quiztype quizType="Angular"/>}/>
+            <Route path="/Quiztype/dotnet" element={<Quiztype quizType="Net"/>}/>
           </Routes>
         </Router>
       </AuthProvider>

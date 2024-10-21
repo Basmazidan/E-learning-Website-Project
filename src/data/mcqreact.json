@@ -1,0 +1,154 @@
+{
+    "mcqReact": [
+        {
+            "question": "What is React primarily used for?",
+            "choices": [
+                "Creating server-side applications",
+                "Building user interfaces",
+                "Managing databases",
+                "Designing graphics"
+            ],
+            "answer": "Building user interfaces"
+        },
+        {
+            "question": "Which of the following is a feature of React?",
+            "choices": [
+                "Virtual DOM",
+                "Two-way data binding",
+                "Direct DOM manipulation",
+                "Single-threaded execution"
+            ],
+            "answer": "Virtual DOM"
+        },
+        {
+            "question": "What does JSX stand for?",
+            "choices": [
+                "JavaScript XML",
+                "Java Syntax Extension",
+                "JavaScript eXtended",
+                "JavaScript eXtra"
+            ],
+            "answer": "JavaScript XML"
+        },
+        {
+            "question": "Which of the following is a way to create a component in React?",
+            "choices": [
+                "React.createClass",
+                "class Component extends React.Component",
+                "function Component()",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "question": "What is the purpose of the key prop in React?",
+            "choices": [
+                "To uniquely identify elements in a list",
+                "To pass data to components",
+                "To control the state of a component",
+                "To style components"
+            ],
+            "answer": "To uniquely identify elements in a list"
+        },
+        {
+            "question": "Which hook allows you to manage state in functional components?",
+            "choices": [
+                "useEffect",
+                "useState",
+                "useContext",
+                "useReducer"
+            ],
+            "answer": "useState"
+        },
+        {
+            "question": "What does the useEffect hook do?",
+            "choices": [
+                "It updates the state of a component",
+                "It allows you to perform side effects in components",
+                "It manages component lifecycle methods",
+                "It provides context to a component"
+            ],
+            "answer": "It allows you to perform side effects in components"
+        },
+        {
+            "question": "What is the correct syntax to pass props to a React component?",
+            "choices": [
+                "<Component prop1='value'/>",
+                "<Component (prop1='value')>",
+                "<Component [prop1='value']>",
+                "All of the above"
+            ],
+            "answer": "<Component prop1='value'/>"
+        },
+        {
+            "question": "Which of the following is a valid state in a class component?",
+            "choices": [
+                "this.state = { count: 0 }",
+                "this.state.count = 0",
+                "this.state = count: 0",
+                "state = { count: 0 }"
+            ],
+            "answer": "this.state = { count: 0 }"
+        },
+        {
+            "question": "How do you create a functional component in React?",
+            "choices": [
+                "class MyComponent {}",
+                "function MyComponent() {}",
+                "const MyComponent = () => {}",
+                "Both B and C"
+            ],
+            "answer": "Both B and C"
+        },
+        {
+            "question": "Which method is called when a component is rendered for the first time?",
+            "choices": [
+                "componentWillMount",
+                "componentDidMount",
+                "render",
+                "componentDidUpdate"
+            ],
+            "answer": "componentDidMount"
+        },
+        {
+            "question": "What is the purpose of the render() method in React?",
+            "choices": [
+                "To return the UI of the component",
+                "To initialize state",
+                "To handle events",
+                "To update the DOM directly"
+            ],
+            "answer": "To return the UI of the component"
+        },
+        {
+            "question": "Which statement is true about React?",
+            "choices": [
+                "React can only be used for web applications",
+                "React is a framework",
+                "React uses a virtual DOM to optimize performance",
+                "React components cannot be reused"
+            ],
+            "answer": "React uses a virtual DOM to optimize performance"
+        },
+        {
+            "question": "How do you handle events in React?",
+            "choices": [
+                "Using HTML event attributes",
+                "Using JavaScript event listeners",
+                "Using synthetic events",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "question": "Which lifecycle method is invoked immediately after a component is updated?",
+            "choices": [
+                "componentDidMount",
+                "componentDidUpdate",
+                "componentWillUnmount",
+                "shouldComponentUpdate"
+            ],
+            "answer": "componentDidUpdate"
+        }
+    ]
+}

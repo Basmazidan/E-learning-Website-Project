@@ -1,0 +1,54 @@
+.react{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 600px;
+
+}
+.quizbox{
+    margin-top: 20px;
+    padding: 10px;
+    border-style:none;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.nextbtn{
+    background-color: violet;
+    border: none;
+    color: white;
+    width: 25%;
+    text-align: center;
+}
+.nextbtn:hover{
+    background-color: darkviolet;
+}
+.index{
+    color:lightslategray;
+    margin-top: 8px;
+    font-size: small;
+    margin-bottom: 10px;
+    
+}
+.reactbtn{
+    width: 100%;
+    padding: 10px;
+    border-style: outset;
+    border-color: black;
+    background-color: white;
+    
+}
+.correct{
+    background-color: #dffff2;
+    border-color: #00d379;
+}
+.wrong{
+    background-color: #FFEBEB;
+    border-color: #FF4A4A;
+}
