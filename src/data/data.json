@@ -1,0 +1,46 @@
+{
+  "coursesData": [
+    {
+      "id": 1,
+      "title": "Front End Development Using React",
+      "lessons": [
+        "Introduction to React",
+        "JSX and Components",
+        "State and Props",
+        "Lifecycle Methods",
+        "React Hooks",
+        "Handling Events"
+      ],
+      "rating": 4.9,
+      "students": 10400
+    },
+    {
+      "id": 2,
+      "title": "Front End Development Using Angular",
+      "lessons": [
+        "Introduction to Angular",
+        "Angular Components and Templates",
+        "Data Binding and Directives",
+        "Services and Dependency Injection",
+        "Routing and Navigation",
+        "Angular Forms"
+      ],
+      "rating": 5.2,
+      "students": 15400
+    },
+    {
+      "id": 3,
+      "title": "Back End Developing Using .Net",
+      "lessons": [
+        "Introduction to .NET",
+        "C# Basics",
+        "ASP.NET Core Overview",
+        "Working with MVC",
+        "Entity Framework Core",
+        "Deploying .NET Applications"
+      ],
+      "rating": 4.5,
+      "students": 9500
+    }
+  ]
+}

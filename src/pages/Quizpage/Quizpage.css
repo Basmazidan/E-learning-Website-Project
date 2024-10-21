@@ -1,0 +1,8 @@
+.btn-1{
+    background-color: violet;
+    border: none;
+    color: white;
+}
+.btn-1:hover{
+    background-color: darkviolet;
+}
