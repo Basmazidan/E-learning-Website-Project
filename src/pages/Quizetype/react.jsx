@@ -42,7 +42,7 @@ const ReactQuiz = () => {
     };
 
     return (
-        <Container className='react'>
+        <Container className='reactquiz'>
             <Stack gap={3} >
                 <h3>React Quiz</h3>
                 <Stack className='quizbox' direction='vertical'>

@@ -12,7 +12,7 @@ const Quizpage = () => {
     };
 
     return (
-        <Container className='pt-5'>
+        <Container className='quiz pt-5'>
             <Stack gap={3} >
                 <h2>Select a Quiz</h2>
                 <Stack direction='vertical'>

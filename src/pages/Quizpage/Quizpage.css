@@ -6,3 +6,6 @@
 .btn-1:hover{
     background-color: darkviolet;
 }
+.quiz{
+    max-width: 600px;
+}
