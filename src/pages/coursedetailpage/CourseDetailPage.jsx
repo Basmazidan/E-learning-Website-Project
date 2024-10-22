@@ -1,24 +1,3 @@
-// import React from 'react';
-// import { useParams } from 'react-router-dom';
-
-// const CourseDetailPage = () => {
-//   const { id } = useParams(); // Get the course ID from the URL
-//   const courses = JSON.parse(localStorage.getItem('courses'));
-//   const course = courses.find(course => course.id === parseInt(id));
-
-//   return (
-//     <div>
-//       <h1>{course.title}</h1>
-//       <h3>Lessons:</h3>
-//       <ul>
-//         {course.lessons.map((lesson, index) => (
-//           <li key={index}>{lesson}</li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
-
 // export default CourseDetailPage;
 import React from 'react';
 import { useParams } from 'react-router-dom';
