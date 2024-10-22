@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { FaHome,   FaUser } from 'react-icons/fa';
+import { FaBook, FaHome,   FaUser } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
 import './Sidebar.css'; 
@@ -20,6 +20,13 @@ function Sidebar() {
             <FaUser /> Profile
           </NavLink>
       </Nav.Item>
+
+      <Nav.Item>
+      <NavLink to="/courses" className="nav-link" activeClassName="active">
+            <FaBook /> Courses
+          </NavLink>
+      </Nav.Item>
+
     </Nav>
   );
 }
