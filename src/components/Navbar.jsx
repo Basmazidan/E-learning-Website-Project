@@ -21,7 +21,7 @@ export function NavbarNew() {
     <>
       <Navbar expand="lg" className="Navbar bg-body-tertiary mb-3" style={{ backgroundColor: 'violet' }} >
         <Container fluid >
-          <Navbar.Brand href="#">E-Learning</Navbar.Brand>
+          <Navbar.Brand href="/">E-Learning</Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Offcanvas
             id="offcanvasNavbar"

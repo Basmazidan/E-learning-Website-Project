@@ -25,7 +25,7 @@ export const CourseCard = () => {
                         <i className="ri-star-fill"></i> 4.9
                     </div>
                     <div className="enroll d-flex justfy-content-between align-items-center">
-                        <a href="#">Enroll Now</a>
+                        <a href="/courses/1">Enroll Now</a>
                     </div>
                 </div>
               </Card.Text>
@@ -51,7 +51,7 @@ export const CourseCard = () => {
                         <i className="ri-star-fill"></i> 5.2
                     </div>
                     <div className="enroll d-flex justfy-content-between align-items-center">
-                        <a href="#">Enroll Now</a>
+                        <a href="/courses/2">Enroll Now</a>
                     </div>
                 </div>
               </Card.Text>
@@ -77,7 +77,7 @@ export const CourseCard = () => {
                         <i className="ri-star-fill"></i> 4.5
                     </div>
                     <div className="enroll d-flex justfy-content-between align-items-center">
-                        <a href="#">Enroll Now</a>
+                        <a href="/courses/3">Enroll Now</a>
                     </div>
                 </div>
               </Card.Text>
