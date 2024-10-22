@@ -1,0 +1,19 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-container .card {
+  border-radius: 10px;
+}
+
+.dashboard-container .btn {
+  margin-top: 10px;
+}
+
+.dashboard-container .table td {
+  vertical-align: middle;
+}
+
+.dashboard-container .shadow-sm {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
