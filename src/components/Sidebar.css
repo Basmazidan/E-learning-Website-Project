@@ -1,0 +1,17 @@
+.sidebar {
+    background-color:#f3f8fc; /* Change to your desired color */
+    width: 250px;
+  }
+  
+  .sidebar h5 {
+    color: rgb(48, 6, 87);
+  }
+  
+  .sidebar .nav-link {
+    color: rgb(48, 6, 87);
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #848fee; /* Slightly lighter on hover */
+  }
+  

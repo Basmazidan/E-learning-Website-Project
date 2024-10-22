@@ -1,0 +1,12 @@
+.custom-topbar {
+    background-color:  #c8dff3; 
+  }
+  
+  .custom-topbar .navbar-brand,
+  .custom-topbar .nav-link {
+    color: rgb(48, 6, 87); 
+  }
+  
+  .custom-topbar .nav-link:hover {
+    color: rgb(249, 246, 252); 
+  }
